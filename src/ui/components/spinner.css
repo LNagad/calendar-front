@@ -1,0 +1,10 @@
+
+.spinner-container {
+    position: absolute;
+   right: 10px;
+}
+.spinner-width {
+    width: 25px;
+    height: 25px;
+}
+  

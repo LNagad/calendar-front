@@ -1,0 +1,124 @@
+.authBody {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: #0575E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.authBody2 {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  background: #0575E6; 
+  background: -webkit-linear-gradient(to right, #0575E6, #021B79); 
+  background: linear-gradient(to right, #0575E6, #021B79); 
+}
+
+
+
+.login-form-1 {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  padding: 5%;
+  min-width: 300px; /* Ajusta el min-width según tus preferencias */
+}
+
+.login-form-1 h3 {
+  text-align: center;
+  color: #0062cc;
+  font-size: 35px; /* Tamaño de fuente ajustado a 19px */
+}
+
+.login-form-2 {
+  border-radius: 5px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+  padding: 5%;
+  background: #fff;
+  min-width: 300px; /* Ajusta el min-width según tus preferencias */
+}
+
+.login-form-2 h3 {
+  text-align: center;
+  color: #0062cc;
+  font-size: 35px; /* Tamaño de fuente ajustado a 19px */
+}
+
+.login-container form {
+  padding: 10%;
+}
+
+.btnSubmit {
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+  font-size: 19px; /* Tamaño de fuente ajustado a 19px */
+}
+
+.login-form-1 .btnSubmit {
+  color: #fff;
+  background-color: #0062cc;
+}
+
+.login-form-2 .btnSubmit {
+  background-color: #fff;
+  color: #0062cc;
+}
+
+.login-form-2 .ForgetPwd {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-form-1 .ForgetPwd {
+  color: #0062cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.form-group input.form-control {
+  font-size: 19px; /* Tamaño de fuente ajustado a 19px */
+}
+
+.form-group .invalid-feedback {
+  font-size: 19px; /* Tamaño de fuente ajustado a 19px */
+}
+
+.mt-2.text-primary {
+  font-size: 19px; /* Tamaño de fuente ajustado a 19px */
+}
+
+.text-primary.ms-1 {
+  font-size: 19px; /* Tamaño de fuente ajustado a 19px */
+}
+
+@media (max-width: 767px) {
+  .authBody2 {
+    justify-content: start;
+  }
+  .authBody2 .login-container{
+    margin-top: 6rem;
+  }
+
+  .login-container {
+    height: auto; /* Altura automática en dispositivos móviles */
+    padding: 20px; /* Espaciado adicional en dispositivos móviles */
+  }
+
+  .form-group {
+    margin-bottom: 1rem !important;
+  }
+
+} 
+
