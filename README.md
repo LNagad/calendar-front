@@ -1,5 +1,6 @@
-# Calendar APP
+# Calendar App
 
+This is a calendar application built with React, Redux, and Redux Toolkit for state management. It utilizes React Big Calendar, React Date Picker, and Bootstrap for the user interface.
 
 ## Development steps
 
