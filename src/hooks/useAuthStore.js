@@ -26,12 +26,13 @@ export const useAuthStore = () => {
 
       } catch (error) {
          console.log(error);
-         dispatch( onLogout(error.response.data.msg || 'Invalid credentials') );
+         localStorage.clear();
+         dispatch( onLogout(error?.response?.data?.msg || 'Invalid credentials') );
          dispatch( toggleBtnLoginSpinner() );
 
          setTimeout(() => {
             dispatch( clearErrorMessage() );
-         }, 7000);
+         }, 10);
       }
 
    };
@@ -55,7 +56,7 @@ export const useAuthStore = () => {
      
    
       } catch (error) {
-         dispatch( onLogout(error.response.data?.msg || '--') );
+         dispatch( onLogout(error?.response?.data?.msg || '--') );
          dispatch( toggleBtnRegisterSpinner() );
 
          setTimeout(() => {
